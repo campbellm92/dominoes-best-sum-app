@@ -1,3 +1,6 @@
 Java assignment - dropwizard.pdf
 
+target/
 *.class
+
+python/
