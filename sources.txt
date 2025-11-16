@@ -19,3 +19,21 @@ https://codingtechroom.com/tutorial/java-java-public-keyword-tutorial
 
 public static void main:
 https://www.digitalocean.com/community/tutorials/public-static-void-main-string-args-java-main-method
+
+Java/git:
+https://stackoverflow.com/questions/8236785/should-class-files-be-put-under-version-control
+
+Importing:
+https://www.geeksforgeeks.org/java/how-to-import-custom-class-in-java/
+
+
+Helper and utility classes:
+https://stackoverflow.com/questions/12192050/what-are-the-differences-between-helper-and-utility-classes
+https://www.baeldung.com/java-helper-vs-utility-classes
+https://chatgpt.com/share/691a18a4-dd30-8013-94c7-fbc4e37da334
+
+Arrays:
+https://www.w3schools.com/java/java_arrays.asp
+
+Conditionals: 
+https://www.w3schools.com/java/java_switch.asp
