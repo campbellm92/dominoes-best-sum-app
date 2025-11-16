@@ -7,6 +7,7 @@ https://github.com/RGBz/mexican-train-domino-solver
 Application architecture:
 https://chatgpt.com/share/6919f8e7-45ec-8013-ac8c-1c049a5495f8
 https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html
+https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 
 pom.xml:
 https://maven.apache.org/guides/introduction/introduction-to-the-pom.html
