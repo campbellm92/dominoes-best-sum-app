@@ -1,0 +1,20 @@
+Recursion:
+https://stackoverflow.com/questions/26189818/longest-domino-chain-sequence
+
+Solutions:
+https://github.com/RGBz/mexican-train-domino-solver
+
+Application architecture:
+https://chatgpt.com/share/6919f8e7-45ec-8013-ac8c-1c049a5495f8
+https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html
+
+pom.xml:
+https://maven.apache.org/guides/introduction/introduction-to-the-pom.html
+https://www.geeksforgeeks.org/advance-java/maven-pom/
+
+public, private, protected: 
+https://stackoverflow.com/questions/215497/what-is-the-difference-between-public-protected-package-private-and-private-in
+https://codingtechroom.com/tutorial/java-java-public-keyword-tutorial
+
+public static void main:
+https://www.digitalocean.com/community/tutorials/public-static-void-main-string-args-java-main-method
