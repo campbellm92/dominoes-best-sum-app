@@ -39,7 +39,7 @@ public class DominoChainCalculatorTest {
         int result = DominoChainCalculator.findBestChain(initial, remainingTiles, 0);
 
         System.out.println("Final Result = " + result);
-        System.out.println("========================");
+        System.out.println("================================================");
 
         assertEquals(29, result);
     }
@@ -64,7 +64,7 @@ public class DominoChainCalculatorTest {
         int result = DominoChainCalculator.findBestChain(initial, remainingTiles, 0);
 
         System.out.println("Final Result = " + result);
-        System.out.println("========================");
+        System.out.println("================================================");
 
         assertEquals(7, result);
     }
@@ -72,16 +72,12 @@ public class DominoChainCalculatorTest {
     @Order(3)
     @Test
     void testBestSumRandomPermutation_1() {
-        System.out.println("Test with dominoes in different order:");
+        System.out.println("Test with dominoes in different order (1):");
         Domino initial = new Domino(1, 3);
         Domino second = new Domino(1, 4);
-
         Domino third = new Domino(4, 6);
-
         Domino fourth = new Domino(8, 6);
-
         Domino fifth = new Domino(10, 8);
-
         Domino sixth = new Domino(10, 1);
 
         List<Domino> remainingTiles = new ArrayList<>(
@@ -90,14 +86,66 @@ public class DominoChainCalculatorTest {
         int result = DominoChainCalculator.findBestChain(initial, remainingTiles, 0);
 
         System.out.println("Final Result = " + result);
-        System.out.println("========================");
+        System.out.println("================================================");
 
         assertEquals(29, result);
     }
 
     @Order(4)
     @Test
-    void testReturnsNull() {
+    void testBestSumRandomPermutation_2() {
+        System.out.println("Test with dominoes in different order (2):");
+        Domino initial = new Domino(1, 3);
+        Domino second = new Domino(1, 4);
+        Domino third = new Domino(4, 6);
+        Domino fourth = new Domino(8, 6);
+        Domino fifth = new Domino(10, 8);
+        Domino sixth = new Domino(10, 1);
 
+        List<Domino> remainingTiles = new ArrayList<>(
+                List.of(fourth, fifth, second, third, sixth));
+
+        int result = DominoChainCalculator.findBestChain(initial, remainingTiles, 0);
+
+        System.out.println("Final Result = " + result);
+        System.out.println("================================================");
+
+        assertEquals(29, result);
+    }
+
+    @Order(5)
+    @Test
+    void testNoMatches() {
+        System.out.println("Test dominoes with no matches return 0:");
+        Domino initial = new Domino(1, 3);
+        Domino second = new Domino(2, 4);
+        Domino third = new Domino(5, 6);
+
+        List<Domino> remainingTiles = new ArrayList<>(
+                List.of(second, third));
+
+        int result = DominoChainCalculator.findBestChain(initial, remainingTiles, 0);
+
+        System.out.println("Final Result = " + result);
+        System.out.println("================================================");
+
+        assertEquals(0, result);
+    }
+
+    @Order(6)
+    @Test
+    void testSingleTileList() {
+        System.out.println("Test single tile returns 0:");
+        Domino initial = new Domino(1, 3);
+
+        List<Domino> remainingTiles = new ArrayList<>(
+                List.of());
+
+        int result = DominoChainCalculator.findBestChain(initial, remainingTiles, 0);
+
+        System.out.println("Final Result = " + result);
+        System.out.println("================================================");
+
+        assertEquals(0, result);
     }
 }
