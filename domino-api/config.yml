@@ -1,0 +1,7 @@
+---
+logging:
+  level: INFO
+  loggers:
+    com.matthew.domino: DEBUG
+
+maxChainSum: 1000
