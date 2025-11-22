@@ -4,6 +4,7 @@ import io.dropwizard.core.Configuration;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class DominoAPIConfiguration extends Configuration {
+
     private int maxChainSum;
 
     @JsonProperty
