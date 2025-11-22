@@ -4,6 +4,7 @@ import jakarta.ws.rs.Consumes;
 import jakarta.ws.rs.POST;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
+import jakarta.validation.Valid;
 import jakarta.ws.rs.core.MediaType;
 
 import java.util.List;
@@ -18,7 +19,7 @@ import com.matthew.domino.core.DominoChainCalculator;
 public class DominoResource {
 
     @POST
-    public BestChainResponse calculateBestChain(BestChainRequest request) {
+    public BestChainResponse calculateBestChain(@Valid BestChainRequest request) {
 
         List<Domino> tiles = request.getTiles().stream()
                 .map(t -> new Domino(t.getLeft(), t.getRight()))
