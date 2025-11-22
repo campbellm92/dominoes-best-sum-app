@@ -36,3 +36,5 @@ log/
 /dependency-reduced-pom.xml
 
 settings.json
+
+dependency-reduced-pom.xml
