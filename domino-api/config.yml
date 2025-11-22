@@ -4,4 +4,12 @@ logging:
   loggers:
     com.matthew.domino: DEBUG
 
+server:
+  applicationConnectors:
+    - type: http
+      port: 9090
+  adminConnectors:
+    - type: http
+      port: 9091
+
 maxChainSum: 1000
