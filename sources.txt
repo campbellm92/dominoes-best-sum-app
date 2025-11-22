@@ -1,9 +1,6 @@
 Recursion:
 https://stackoverflow.com/questions/26189818/longest-domino-chain-sequence
 
-Solutions:
-https://github.com/RGBz/mexican-train-domino-solver
-
 Application architecture:
 https://chatgpt.com/share/6919f8e7-45ec-8013-ac8c-1c049a5495f8
 https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html
@@ -22,10 +19,10 @@ https://www.digitalocean.com/community/tutorials/public-static-void-main-string-
 
 Java/git:
 https://stackoverflow.com/questions/8236785/should-class-files-be-put-under-version-control
+https://github.com/nstoya/dropwizard-what-to-do/blob/master/.gitignore
 
 Importing:
 https://www.geeksforgeeks.org/java/how-to-import-custom-class-in-java/
-
 
 Helper and utility classes:
 https://stackoverflow.com/questions/12192050/what-are-the-differences-between-helper-and-utility-classes
@@ -34,6 +31,50 @@ https://chatgpt.com/share/691a18a4-dd30-8013-94c7-fbc4e37da334
 
 Arrays:
 https://www.w3schools.com/java/java_arrays.asp
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html
+https://www.geeksforgeeks.org/java/initializing-a-list-in-java/
 
 Conditionals: 
 https://www.w3schools.com/java/java_switch.asp
+https://www.w3schools.com/java/java_conditions.asp
+
+this:
+https://www.geeksforgeeks.org/java/java-this-keyword/
+
+List comprehension in Java:
+https://www.javaspring.net/blog/java-list-comprehension/
+https://dnmtechs.com/java-list-comprehension-python-like-syntax-without-colon-extension/
+    Java Stream API:
+    https://www.javaguides.net/2025/06/all-32-java-stream-methods-withexamples.html
+    https://www.geeksforgeeks.org/java/stream-filter-java-examples/
+
+
+Solutions:
+https://github.com/RGBz/mexican-train-domino-solver
+
+
+Errors:
+    'method undefined for type'
+    https://hatchjs.com/the-method-is-undefined-for-the-type-java/
+    https://codingtechroom.com/question/how-to-call-a-method-from-a-class-in-another-package-java
+    https://chatgpt.com/share/691db9fa-d120-8013-8179-58d399c1d40c
+
+Tests:
+https://www.baeldung.com/junit-5-test-order
+
+    
+DropWizard:
+https://www.dropwizard.io/en/stable/getting-started.html
+https://www.dropwizard.io/en/stable/manual/core.html
+https://github.com/joebew42/dropwizard-sample-app
+    Representations:
+    https://www.dropwizard.io/en/stable/manual/core.html#man-core-representations
+    https://www.naukri.com/code360/library/dropwizard-representation
+    Validation:
+    https://www.dropwizard.io/en/stable/manual/validation.html
+    https://docs.hibernate.org/stable/validator/reference/en-US/html_single/#_validating_constraints
+
+    
+
+int vs Integer:
+https://www.geeksforgeeks.org/java/difference-between-an-integer-and-int-in-java/
