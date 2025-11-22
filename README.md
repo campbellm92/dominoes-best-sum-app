@@ -31,6 +31,7 @@ git clone https://github.com/campbellm92/dominoes-best-sum-app
 2. Build the core module and API:
 
 ```bash
+cd dominoes-best-sum-app
 cd domino-core
 mvn clean install
 cd ../domino-api
