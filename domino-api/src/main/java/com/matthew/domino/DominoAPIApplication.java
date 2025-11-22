@@ -1,8 +1,10 @@
-package com.matthew.domino.api;
+package com.matthew.domino;
 
 import io.dropwizard.core.Application;
 import io.dropwizard.core.setup.Bootstrap;
 import io.dropwizard.core.setup.Environment;
+
+import com.matthew.domino.resources.DominoResource;
 
 public class DominoAPIApplication extends Application<DominoAPIConfiguration> {
 
@@ -17,13 +19,12 @@ public class DominoAPIApplication extends Application<DominoAPIConfiguration> {
 
     @Override
     public void initialize(final Bootstrap<DominoAPIConfiguration> bootstrap) {
-        // TODO: application initialization
+        // cli, templates, etc -> not needed for now
     }
 
     @Override
-    public void run(final DominoAPIConfiguration configuration,
-            final Environment environment) {
-        // TODO: implement application
+    public void run(DominoAPIConfiguration config, Environment env) {
+        env.jersey().register(new DominoResource());
     }
 
 }

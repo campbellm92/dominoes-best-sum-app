@@ -1,9 +1,7 @@
-package com.matthew.domino.api;
+package com.matthew.domino;
 
 import io.dropwizard.core.Configuration;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import org.hibernate.validator.constraints.*;
-import jakarta.validation.constraints.*;
 
 public class DominoAPIConfiguration extends Configuration {
     private int maxChainSum;
